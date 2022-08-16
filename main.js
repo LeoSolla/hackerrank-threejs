@@ -99,7 +99,7 @@ animate();
 const moveCamera = () => {
   const t = document.body.getBoundingClientRect().top;
   
-  camera.position.z = t * 0.008;
+  camera.position.z = t * 0.008 + 20;
   camera.position.y = t * 0.008;
   camera.rotation.x = t * 0.00095;
 }
