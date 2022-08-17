@@ -8,5 +8,5 @@ npm install
 # Running
 npm run dev
 
-# Deploy
+# Demo
 https://hackerrank-threejs.vercel.app
